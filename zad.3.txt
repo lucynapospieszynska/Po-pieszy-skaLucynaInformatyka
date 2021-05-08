@@ -1,0 +1,21 @@
+a=3
+
+b=5
+
+suma=0
+
+i=0
+
+
+while a <= b:
+    while a % 2 == 1:
+        suma= suma + a
+       
+        a = a + 1
+     
+        i = i + 1
+      
+    a = a + 1
+  
+wynik = suma / i
+print('wynik', wynik)
